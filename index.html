@@ -1,0 +1,377 @@
+<!doctype html>
+<html>
+    <head>
+        <!--aos head 영역-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script> 
+
+<!-- 롤리 해보기-->
+<link rel="stylesheet" href="DB_tab35.css" type="text/css"></link>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script><!--�������� ȣ��-->
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script><!--easing-->
+<script type="text/javascript" src="js/jquery.d_tabMotionWideBanner.min.js"></script>
+
+
+<!--둥둥이-->
+<link rel="stylesheet" href="css/DB_etc10.css" type="text/css"></link>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.DB_springMove.min.js"></script>
+
+
+    <meta charset="utf-8">
+    <title>event page</title>  
+
+
+
+    <style type="text/css"> 
+   
+  
+
+
+   /*전체레이아웃사이즈------------------------------------------------------------*/
+   body {  cursor: url(img/mo.png), auto;}  /* CUR 파일 경로 지정 */
+    #wrap{width:1920px; height:9254px;  margin:auto; background:url(img/bg.png) no-repeat; margin-top:-30px;}
+                                         
+        /*상단 비쥬얼*/
+        .top_moon{position:absolute; margin-left:910px;margin-top: -15px;}
+        .top_box{position:absolute; margin-top:314px;}
+        .top_text{position:absolute; margin: 116px 0 0 460px;}
+       /* .top_circle{position:absolute; margin: 19px 0px 0px 122px;} */    
+                                                                    
+                                                                  .evp .ev2_1 ul{ margin:0px; padding: 0; list-style: none;margin: 10px 0px 0px 80px; }
+                                                                    .ev2_1 ul li{position:absolute;list-style: none; top:0;}
+
+
+
+        /*오버뷰*/
+        .overview_icon{position:absolute; margin: 1096px 0 0 300px;}     
+        .overview_secondtitle{position:absolute; margin: 1096px 0 0 579px;}   
+        .overview_text{position:absolute; margin: 1096px 0 0 909px;}   
+
+        /*타이포그래피*/
+        .typography_icon{position: absolute;margin: 1687px 0 0 300px;}
+        .typography_secondtitle{position: absolute;margin: 1683px 0 0 579px;}
+        .typography_text{position: absolute;margin: 1689px 0 0 909px;}
+        
+         /*컬러파레트*/
+        .color_icon{position:absolute; margin:1994px 0 0 307px;}
+        .color_text{position:absolute; margin:1994px 0 0 595px;}
+        .color_bg_circle{position: absolute; margin:2141px 0 0 595px;}
+        .color_bg_square{position: absolute; margin:2248px 0 0 590px;}
+        .color_point_color{position: absolute; margin:2396px 0 0 590px;}
+        .color_sub_color{position: absolute; margin:2396px 0 0 1139px;}
+        
+        /*이벤트페이지 비쥬얼*/
+        .event_bg{position: absolute; margin:3940px 0 0 300px;}
+        .event_visual_bg{position: absolute; margin:2958px 0 0 300px;}
+                        
+
+                                                                                
+        .event_moon{position: absolute; margin:2957px 0 0 861px;}
+        .event_visual_box{position: absolute; margin:2958px 0 0 300px;}
+        .event_cloud{position: absolute; margin:2807px 0 0 0px; width:1920px; height:600px; overflow: hidden;}
+        .event_x_line{position: absolute; margin:3872px 0 0 300px;}
+        .event_coo{position: absolute; margin:3196px 0 0 1116px;}
+
+        /*이벤트페이지 이벤트*/
+        .event_effect{position:absolute; margin:4201px 0 0 82px;}
+        .event_rest{position:absolute; margin: 4009px 0 0 390px;}
+        
+       
+        .event_title_background{position: absolute; margin:4024px 0 0 568px;}
+        .event_twice{position: absolute; margin:4124px 0 0 762px;}
+        .event_center_coin{position: absolute; margin:4440px 0 0 819px;}
+        .event_left_star{position:absolute; margin:4373px 0 0 577px;}
+        .event_right_star{position:absolute; margin:4373px 0 0 1122px;}
+                 /*이벤트페이지 쿠폰*/
+        .event_coupon_star{position: absolute; margin: 5792px 0 0 331px;}
+        .event_coupon_title{position: absolute; margin: 5981px 0 0 802px;}
+        .event_coupon_in{position:absolute; margin:6208px 0 0 581px;}
+        .event_coupon_out{position:absolute; margin:6279px 0 0 581px;}
+        .event_coupon_firstline{position:absolute; margin:6168px 0 0 745px;}
+
+        /*  버 튼  */
+        /* .event_ssg_button{position:absolute; margin:5416px 0 0 691px;}*/ 
+        .event_ssg_button a{position:relative; background:url(img/event_ssg_button.png)no-repeat;
+                                padding-left:257px; padding-bottom:49px; top:5416px; right:-691px;}
+                                .event_ssg_button a:hover{background-position: 0px -69px;}
+
+        /* .event_naver_button{position:absolute; margin:5416px 0 0 978px;} */
+        .event_naver_button a{position:relative; background:url(img/event_naver_button.png)no-repeat;
+                                padding-left:257px; padding-bottom:49px; top:5397px; right: -980px;}
+                                .event_naver_button a:hover{background-position: 0px -69px;}
+
+        
+
+
+
+        /*  .event_button_last{position:absolute; margin:6872px 0 0 833px;} */
+        .event_button_last a{position:relative; background:url(img/event_button_last.png)no-repeat;
+                                padding-left:257px; padding-bottom:49px; top:6872px; right: -833px;}
+                                .event_button_last a:hover{background-position: 0px -69px;}
+        
+
+        /* 배 너 */
+            #banner{margin-top:-54px;}
+
+
+        .event_banner_icon{position:absolute; margin:7514px 0 0 309px;}
+        .event_banner_text{position:absolute; margin:7514px 0 0 594px;}
+        .event_banner_img{position:absolute; margin:7607px 0 0 251px;}
+
+                                                           #scale {width: 1412px; height: 392px;
+                                                            transform:scale(1);
+                                                            -webkit-transform:scale(1);
+                                                            -moz-transform : scale(1);
+                                                            -ms-transform:scale(1);
+                                                            -o-transform: scale(1);
+                                                            transition: all 0.5s ease-in-out; /* 서서히 확대 */
+                                                            }
+                                                            #scale:hover {
+                                                                transform: scale(1.05);
+                                                                -webkit-transform:scale(1.05);
+                                                                -moz-transform : scale(1.05);
+                                                                -ms-transform:scale(1.05);
+                                                                -o-transform: scale(1.05);
+                                                            }
+
+        /* process */
+        .process_icon{position:absolute; margin:8148px 0 0 309px;}
+        .process_text{position:absolute; margin:8157px 0 0 592px;}
+        .process_img{position:absolute; margin:8301px 0 0 589px;}
+                                                            
+
+
+
+
+
+
+        /* 에 필 로 그 */
+        .epilogue_icon{position:absolute; margin:8776px 0 0 309px;}
+        .epilogue_secondtitle{position:absolute; margin:8773px 0 0 568px;}
+        .epilogue_text{position:absolute; margin:8775px 0 0 913px;}
+
+
+        #topButton {position: fixed; right: 1%; bottom: -40px; display: none; z-index: 999;}/*탑버튼*/
+
+        
+       
+     
+       </style>   
+        </head>
+    
+   
+   
+   
+        
+<body>
+<div id="wrap">
+    <div id="top_visual">
+        <div class="top_moon"><img src="img/top_moon.png" data-aos="fade-down" ></div>
+        <div class="top_box"><img src="img/top_box.png" ></div>
+        <div class="top_text"><img src="img/top_text.png" 
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="200"
+            data-aos-offset="0"
+            ></div>
+      
+          
+   
+        
+        
+          
+    </div>
+  
+<div id="overview">
+    <div class="overview_icon"><img src="img/overview_icon.png"></div>
+    <div class="overview_secondtitle"><img src="img/overview_secondtitle.png" data-aos="fade-right" ></div>
+    <div class="overview_text"><img src="img/overview_text.png" data-aos="fade-up"></div>
+</div>
+
+<div id="typography">
+    <div class="typography_icon"><img src="img/typography_icon.png" ></div>
+    <div class="typography_secondtitle"><img src="img/typography_secondtitle.png" data-aos="fade-right"></div>
+    <div class="typography_text"><img src="img/typography_text.png" data-aos="fade-up"></div>
+</div>
+
+<div id="color">
+    <div class="color_icon"><img src="img/color_icon.png"></div>
+    <div class="color_text"><img src="img/color_text.png" data-aos="fade-up" ></div>
+    <div class="color_bg_circle"><img src="img/color_bg_circle.png"></div>
+    <div class="color_bg_square"><img src="img/color_bg_square.png" data-aos="fade-right"></div>
+    <div class="color_point_color"><img src="img/color_point_color.png" data-aos="fade-right"></div>
+    <div class="color_sub_color"><img src="img/color_sub_color.png" data-aos="fade-right"></div>
+</div>
+
+<div id="event">
+    <div class="event_bg"><img src="img/event_bg.png"></div>
+    <div class="event_visual_bg"><img src="img/event_visual_bg.png"></div>
+   
+    <div class="event_circle">
+        
+        </div>
+    
+    </div>
+
+
+
+
+
+    
+    <div class="event_moon"><img src="img/event_moon.png" data-aos="zoom-in"></div>
+    <div class="event_visual_box"><img src="img/event_visual_box.png"></div>
+    <div class="event_cloud">
+        <div class="DB_etc10_1"><img src="img/event_cloud.png"></div>
+        
+        
+        <img src=></div>
+    <div class="event_coo"><img src="img/event_coo.png"></div>
+
+    <div class="event_x_line"><img src="img/event_x_line.png"></div> <!-- 띠 -->
+   
+    <div class="event_effect"><img src="img/event_effect.png"></div>
+    <div class="event_rest"><img src="img/event_rest.png"></div>
+    
+    <div class="event_title_background"><img src="img/event_title_background.png"></div>
+    <div class="event_twice"><img src="img/event_twice.png" data-aos="zoom-in"></div>
+    <div class="event_center_coin"><div class="DB_etc10_2"><img src="img/event_center_coin.png"></div></div>
+    <div class="event_left_star"><img src="img/event_left_star.png" data-aos="fade-up-left" ></div>
+    <div class="event_right_star"><img src="img/event_right_star.png" data-aos="fade-up-right"></div>
+   
+    <div id="circle">
+    <div class="ev2_1">
+        <ul>
+            <li><img src="img/circle.png" alt=""></li>
+            <li><img src="img/circle_2.png" alt=""></li>
+        </ul>
+
+    </div>
+
+    <!-- 쿠 폰 -->
+    <div class="event_coupon_star"><img src="img/event_coupon_star.png" data-aos="fade-up-left" ></div>
+    <div class="event_coupon_title"><img src="img/event_coupon_title.png"></div>
+    <div class="event_coupon_in"><img src="img/event_coupon_in.png"data-aos="fade-up"></div>
+    <div class="event_coupon_out"><img src="img/event_coupon_out.png"></div>
+    <div class="event_coupon_firstline"><img src="img/event_coupon_firstline.png" 
+        data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0" ></div>
+
+    <!--버튼 들 총3개--> <!--***@@@@@@@@@@@@@@@@@@@@@@@@@*@*@*@*@*@*@*@@**@@*@*@*@*@*@@*-->
+    <div class="event_ssg_button"><a href ="#"></a></div>
+    <div class="event_naver_button"><a href ="#"></a></div>
+    <div class="event_button_last"><a href="#"></a></div>
+
+</div><!--event 이벤트페이지-->
+
+<!-- 배 너 -->
+<div id="banner">
+        <div class="event_banner_icon"><img src="img/banner_icon.png"></div>
+        <div class="event_banner_text"><img src="img/banner_text.png" data-aos="fade-up" ></div>
+        <div class="event_banner_img"> <img id="scale" src="img/banner_img.png"  data-aos="fade-up"> </div>
+    
+   </div>
+
+<!-- 에 필 로 그 -->
+<div class="process_icon"><img src="img/process_icon.png"></div>
+<div class="process_text"><img src="img/process_text.png" data-aos="fade-up"></div>
+<div class="process_img"><img src="img/process_img.png" data-aos="fade-up"></div>
+
+
+
+
+<!-- 에 필 로 그 -->
+<div class="epilogue_icon"><img src="img/epilogue_icon.png"></div>
+<div class="epilogue_secondtitle"><img src="img/epilogue_secondtitle.png" data-aos="fade-right" ></div>
+<div class="epilogue_text"><img src="img/epilogue_text.png" data-aos="fade-up"></div>
+
+
+
+
+
+</div> <!-- warp -->
+
+
+
+
+<!--aos body 영역-->
+<script> AOS.init(); </script>
+
+
+<!--둥둥이 body 영역-->
+<script>
+
+	$('.DB_etc10_2').DB_springMove({
+		key:'c65806',                //���̼���Ű
+		dir:'y',               //������('x','y')
+		mirror:1,              //�ݴ�����̵�(1,-1)
+		radius:10,             //�ݰ�
+		motionSpeed:0.08,       //�ӵ�(0~1)
+        
+	})
+	
+</script>
+
+
+
+<script>
+	$('.DB_etc10_1').DB_springMove({
+		key:'c65806',                //���̼���Ű
+		dir:'x',               //������('x','y')
+		mirror:1,              //�ݴ�����̵�(1,-1)
+		radius:10,             //�ݰ�
+		motionSpeed:0.1,       //�ӵ�(0~1)
+		over:'stop'
+	})
+</script>
+
+
+
+
+	
+  <!--반짝이-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script>
+      $(function(){
+           $(".ev2_1 ul li").eq(0).fadeIn();  
+          setInterval(function(){
+              $(".ev2_1 ul li").eq(0).fadeOut().appendTo(".ev2_1 ul");  
+              $(".ev2_1 ul li").eq(0).fadeIn();},1200) 
+      })
+  </script>
+
+
+  <!--반짝이 끝-->
+
+  <div class="top_button" id="topButton" style="cursor:pointer">
+    <a style="display:scroll;position:fixed;bottom:50px;right:80px;" href="#" > <img src="img/topbutton.png" id="topButtonImg" id="topButtonImg"></a>
+</div>
+
+
+<!--플러팅메뉴--> 
+<script>
+    $(window).scroll(function() {
+      // top button controll
+      if ($(this).scrollTop() > 500) {
+          $('#topButton').fadeIn();
+      } else {
+          $('#topButton').fadeOut();
+      }
+    });
+    
+    $(document).ready(function() {
+      // Top Button click event handler
+      $("#topButtonImg").click(function() {
+        $('html, body').animate({scrollTop:0 }, '500');
+      });
+    });
+    </script>
+
+</body>    
+</html>
+
+
+
